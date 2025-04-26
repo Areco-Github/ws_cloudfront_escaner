@@ -157,7 +157,7 @@ def Main():
             iprange.append(ip)
         for index in range(len(iprange)):
             try:
-                print("{}[INFO] Sondando... ({}/{}) [{}]{}".format(
+                print("{}[INFO] Escanendo... ({}/{}) [{}]{}".format(
                     R, index + 1, len(iprange), iprange[index], GR))
                 sc = threading.Thread(target=scanner, args=(iprange[index], nombre_archivo))
                 sc.start()
