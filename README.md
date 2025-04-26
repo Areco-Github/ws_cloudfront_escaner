@@ -1,6 +1,6 @@
 # ws_cloudfront_escaner
 
-Escaner de todos los rangos de ip cloudflare
+Escaner de todos los rangos de ip cloudfront
 
 # Escáner de WebSocket para Cloudfront
 
